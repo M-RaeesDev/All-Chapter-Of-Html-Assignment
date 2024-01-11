@@ -1,0 +1,86 @@
+/* Cv Page */
+#mainglob{
+    margin-top: 30px;
+}
+.globtbl{
+    border: 1px solid black;
+    background-color: lightseagreen;
+}
+
+.globrow{
+   
+    width: auto;
+    height: 30px;
+}
+.globclm{
+    
+    width: 225px;
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.lglob{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+
+
+
+/* Student Attendence */
+.stdtbl {
+   
+    margin-top: 10px;
+}
+.stdclm1{
+    border: 1px solid black;
+    width: 225px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+.stdclm{
+    border: 1px solid black;
+    width: 225px;
+    height: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+.stdh {
+    font-size: 25px;
+    background-color: darkkhaki;
+}
+.stdrow1{
+    background-color: black;
+}
+.clryel{
+    background-color: yellow;
+}
+.clrred{
+    background-color: red;
+}
+.clrgr{
+    background-color: limegreen;
+}
+.clrlgr{
+    background-color: lightgreen;
+}
+.clrbl{
+    background-color: #3468C0;
+}
+/* End */
+
+/* Law */
+.lawclm{
+    border: 1px solid black;
+    width: 225px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
