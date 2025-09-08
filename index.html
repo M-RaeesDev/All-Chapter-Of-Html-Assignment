@@ -22,7 +22,7 @@
   </div>
 
   <!-- CV Section -->
-  <div style="max-width:800px; background:#fff; margin:40px auto; padding:25px; border-radius:12px; box-shadow:0 6px 15px rgba(0,0,0,0.2);">
+  <div style="max-width:900px; background:#fff; margin:40px auto; padding:25px; border-radius:12px; box-shadow:0 6px 15px rgba(0,0,0,0.2);">
     
     <!-- Title -->
     <h1 style="background:linear-gradient(90deg,#4CAF50,#2E8B57); color:white; padding:12px; text-align:center; border-radius:8px; font-size:26px;">
@@ -30,8 +30,8 @@
     </h1>
 
     <!-- Profile Info -->
-    <div style="display:flex; align-items:center; margin-top:20px;">
-      <img src="./raees.jpg" width="145" height="160" style="border-radius:10px; border:2px solid #4CAF50; margin-right:20px;">
+    <div style="display:flex; align-items:center; margin-top:20px; flex-wrap:wrap;">
+      <img src="./raees.jpg" width="145" height="160" style="border-radius:10px; border:2px solid #4CAF50; margin-right:20px; margin-bottom:15px;">
       <div>
         <h2 style="margin:0; color:#333;">MUHAMMAD RAEES SABIR</h2>
         <p style="margin:5px 0; font-size:15px; color:#555;"><b>DOB:</b> 24/11/2001</p>
@@ -42,23 +42,30 @@
 
     <hr style="margin:25px 0; border:1px solid #ccc;">
 
-    <!-- Education -->
-    <h2 style="text-align:center; color:#2E8B57; margin-bottom:10px;">🎓 Education Details</h2>
-    <ul style="list-style:circle; font-size:16px; color:#333; line-height:1.8;">
-      <li><b>Matric</b> - Science</li>
-      <li><b>Intermediate</b> - Pre Engineering</li>
-      <li><b>Bachelor</b> (Ongoing) in Computer Science</li>
-    </ul>
+    <!-- Education + Skills Side by Side -->
+    <div style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:20px;">
+      
+      <!-- Education -->
+      <div style="flex:1; min-width:250px; background:#f9f9f9; padding:15px; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
+        <h2 style="text-align:center; color:#2E8B57; margin-bottom:10px;">🎓 Education Details</h2>
+        <ul style="list-style:circle; font-size:16px; color:#333; line-height:1.8; padding-left:20px;">
+          <li><b>Matric</b> - Science</li>
+          <li><b>Intermediate</b> - Pre Engineering</li>
+          <li><b>Bachelor</b> (Ongoing) in Computer Science</li>
+        </ul>
+      </div>
 
-    <hr style="margin:25px 0; border:1px solid #ccc;">
+      <!-- Skills -->
+      <div style="flex:1; min-width:250px; background:#f9f9f9; padding:15px; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
+        <h2 style="text-align:center; color:#2E8B57; margin-bottom:10px;">💻 Skills</h2>
+        <ul style="list-style:circle; font-size:16px; color:#333; line-height:1.8; padding-left:20px;">
+          <li>Beginner in Programming</li>
+          <li>Typing Speed: 40 WPM</li>
+          <li>MS Office (Word, Excel, PowerPoint)</li>
+        </ul>
+      </div>
 
-    <!-- Skills -->
-    <h2 style="text-align:center; color:#2E8B57; margin-bottom:10px;">💻 Skills</h2>
-    <ul style="list-style:circle; font-size:16px; color:#333; line-height:1.8;">
-      <li>Beginner in Programming</li>
-      <li>Typing Speed: 40 WPM</li>
-      <li>MS Office (Word, Excel, PowerPoint)</li>
-    </ul>
+    </div>
   </div>
 
 </body>
